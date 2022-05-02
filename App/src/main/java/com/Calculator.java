@@ -3,7 +3,9 @@ package com;
 public class Calculator {
 
     public Calculator() {
-        CalculatorView view = new CalculatorView();
+
+        CalculatorControl controller = new CalculatorControl();
+        CalculatorView view = new CalculatorView(controller);
     }
 
     public static void main(String[] args) {
