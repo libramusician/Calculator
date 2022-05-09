@@ -1,0 +1,2 @@
+gcc -c -I${JAVA_HOME}/include -I${JAVA_HOME}/include/win32  myc.c
+gcc -shared -o myLib.dll myc.o
